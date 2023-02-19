@@ -1,5 +1,6 @@
 @import "./header.css";
 
+
 html {
     font-size: 62.5%;
 }
@@ -11,6 +12,8 @@ body {
 
 img {
     max-width: 100%;
+    display: block;
+    border-radius: 4px;
 }
 
 p, h1, h2, h3, h4 {

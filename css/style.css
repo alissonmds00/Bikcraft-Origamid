@@ -1,2 +1,4 @@
+@import "./global/fonts.css";
 @import "./global/global.css";
 @import "./bikecraft.css";
+@import "./bikecraft/introducao.css"
