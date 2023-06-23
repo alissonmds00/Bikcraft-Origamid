@@ -1,4 +1,3 @@
-@import "./global/fonts.css";
-@import "./global/global.css";
-@import "./bikecraft.css";
-@import "./bikecraft/introducao.css"
+@import "./global/style.css";
+@import "./bikecraft/style.css";
+@import "./utilitarios/style.css"

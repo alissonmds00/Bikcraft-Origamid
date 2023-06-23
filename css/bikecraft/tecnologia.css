@@ -1,0 +1,32 @@
+.tecnologia-bg {
+  background: var(--cor-11);
+}
+
+.tecnologia-conteudo {
+  margin-top: 90px;
+}
+
+.tecnologia-conteudo h2,
+.tecnologia-conteudo span {
+    padding-bottom: 50px;
+}
+
+.tecnologia-conteudo a {
+    display: block;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.tecnologia-caracteristicas {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.tecnologia-imagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
+}
