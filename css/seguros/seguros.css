@@ -1,0 +1,93 @@
+.seguros-background {
+    background: var(--cor-11);
+}
+
+.seguros {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.seguros h2 {
+    margin-bottom: 80px;
+}
+
+.plano {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plano div {
+    display: flex;
+    flex-direction: column;
+}
+
+.plano span {
+    text-align: end;
+}
+
+.opcoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.opcoes > div {
+    background: var(--cor-12);
+    padding: 32px 32px 32px 60px;
+}
+
+.opcoes h3 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.opcoes ul {
+    position: relative;
+}
+
+.opcoes ul li {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.opcoes ul li::before {
+    display: block;
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    content: "";
+    width: 13px;
+    height: 9px;
+    background: url(../../img/icones/lista.svg), no-repeat;
+}
+
+.seguros a {
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .opcoes {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .plano {
+        flex-direction: row;
+        flex-direction: column;
+    }
+    .plano span {
+        justify-content: left;
+        align-items: baseline;
+    }
+    .plano div {
+        flex-direction: row;
+        margin-bottom: 20px;
+        align-items: end;
+        gap: 10px;
+    }
+}
