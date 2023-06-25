@@ -6,9 +6,17 @@
   margin-top: 90px;
 }
 
-.tecnologia-conteudo h2,
-.tecnologia-conteudo span {
-    padding-bottom: 50px;
+.tecnologia-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tecnologia-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.tecnologia-conteudo > p {
+  margin-bottom: 20px;
 }
 
 .tecnologia-conteudo a {
@@ -29,4 +37,8 @@
     height: 100%;
     object-fit: cover;
     object-position: left;
+}
+
+@media (max-width: 800px) {
+
 }

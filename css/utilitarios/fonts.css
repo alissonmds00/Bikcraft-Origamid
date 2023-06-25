@@ -98,4 +98,10 @@
   .font-1-18 {
     font-size: 14px;
   }
+  .font-1-64 {
+    font-size: 3.2rem;
+  }
+  .font-2-24-caps, .font-2-24 {
+    font-size: 1.2rem;
+  }
 }
