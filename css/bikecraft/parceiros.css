@@ -47,6 +47,9 @@
     .parceiros-container ul {
         grid-template-columns: 1fr 1fr;
     }
+    .parceiros-container li {
+      padding: 20px;
+    }
     .parceiros-container li:nth-child(n + 3) {
         border-top: 2px solid var(--cor-2);
     }
