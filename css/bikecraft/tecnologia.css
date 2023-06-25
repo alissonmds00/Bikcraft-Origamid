@@ -8,14 +8,20 @@
   padding-bottom: 160px;
 }
 
-.tecnologia-conteudo h2,
-.tecnologia-conteudo span {
-    padding-bottom: 50px;
+.tecnologia-conteudo > span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tecnologia-conteudo h2 {
+  margin-bottom: 32px;
+}
+
+.tecnologia-conteudo > p {
+  margin-bottom: 20px;
 }
 
 .tecnologia-conteudo a {
-  margin-top: 30px;
-  padding: 10px;
   margin-bottom: 80px;
 }
 
@@ -39,4 +45,26 @@
   height: 100%;
   object-fit: cover;
   object-position: left;
+}
+
+@media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: initial;
+  }
+  .tecnologia-container {
+    grid-template-columns: 1fr !important;
+  }
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tecnologia-imagem {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) { 
+  .tecnologia-caracteristicas {
+    flex-direction: column;
+  }
 }

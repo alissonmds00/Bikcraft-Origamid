@@ -94,6 +94,13 @@
   line-height: 1.43;
 }
 
+
+@media (max-width: 800px) {
+  .font-2-24, .font-2-24-caps {
+    font-size: 1.6rem;
+  }
+}
+
 @media (max-width: 600px) {
   .font-1-18 {
     font-size: 14px;

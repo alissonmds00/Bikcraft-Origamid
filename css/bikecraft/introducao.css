@@ -9,8 +9,7 @@
 }
 
 .introducao-info {
-  align-self: end;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
 }
 
 .introducao-titulo {
@@ -38,9 +37,9 @@
 
 @media (max-width: 800px) {
   .introducao {
-    grid-template-columns: 1fr;
-    gap: 32px;
-    padding-top: 0px;
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+    padding-top: 0px !important;
   }
   .introducao-info {
     padding: 0px;
@@ -53,8 +52,10 @@
     justify-self: center;
     height: 300px;
     width: 100%;
+    padding-bottom: 20px;
   }
   .introducao-bg {
+    box-shadow: initial;
     margin-top: 0px;
     padding-top: 0px;
   }
