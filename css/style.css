@@ -1,4 +1,5 @@
 @import "./global/style.css";
 @import "./bikecraft/style.css";
 @import "./utilitarios/style.css";
-@import "./seguros/seguros.css"
+@import "./seguros/seguros.css";
+@import "./footer/footer.css"
