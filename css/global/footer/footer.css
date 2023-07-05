@@ -3,6 +3,7 @@
 }
 
 .footer-container {
+    padding: 60px 20px 60px 20px;
     gap: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -36,4 +37,28 @@
 
 .copyright {
     grid-column: 1 / -1;
+    margin-top: 40px;
+}
+
+.footer a:hover {
+    color: var(--cor-0);
+}
+
+@media (max-width: 800px) {
+    .footer-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .footer-container > img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+    .copyright {
+        margin-top: 0px;
+    }
 }
