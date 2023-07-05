@@ -2,4 +2,5 @@
 @import "./bikecraft/style.css";
 @import "./utilitarios/style.css";
 @import "./seguros/seguros.css";
-@import "./footer/footer.css"
+@import "./footer/footer.css";
+@import "./termos/termos.css"
