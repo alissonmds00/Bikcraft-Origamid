@@ -1,4 +1,5 @@
 @import "./fonts.css";
-@import "./footer.css";
+@import "./footer/footer.css";
 @import "./global.css";
 @import "./header.css";
+
