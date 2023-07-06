@@ -3,4 +3,5 @@
 @import "./utilitarios/style.css";
 @import "./seguros/seguros.css";
 @import "./footer/footer.css";
-@import "./termos/termos.css"
+@import "./termos/termos.css";
+@import "./bicicletas/style.css"
