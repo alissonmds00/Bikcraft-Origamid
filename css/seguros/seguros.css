@@ -9,6 +9,10 @@
     padding: 20px;
 }
 
+#seguros .seguros {
+    padding-top: 0px;
+}
+
 .seguros h2 {
     margin-bottom: 80px;
 }
@@ -38,6 +42,7 @@
 .opcoes > div {
     background: var(--cor-12);
     padding: 32px 32px 32px 60px;
+    border-radius: 4px;
 }
 
 .opcoes h3 {

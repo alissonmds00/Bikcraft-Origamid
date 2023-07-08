@@ -1,4 +1,4 @@
-  @import "./header.css";
+@import "./header.css";
 @import "../utilitarios/componentes.css";
 @import "../utilitarios/cores.css";
 
@@ -22,7 +22,9 @@ h1,
 h2,
 h3,
 h4,
-blockquote {
+blockquote,
+dd,
+dt {
   margin: 0px;
 }
 
