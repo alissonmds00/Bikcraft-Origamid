@@ -1,0 +1,14 @@
+.bicicleta-bg {
+    background: var(--cor-11);
+}
+.bicicleta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.imagens-container div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
