@@ -73,6 +73,10 @@
   border-radius: 4px;
 }
 
+#nimbus .font-2-24-caps {
+    text-transform: uppercase;
+}
+
 @media (max-width: 600px) {
   .bicicleta {
     grid-template-columns: 1fr;
