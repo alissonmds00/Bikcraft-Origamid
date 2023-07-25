@@ -47,6 +47,14 @@
   line-height: 1.34;
 }
 
+.font-1-12caps {
+  text-transform: uppercase;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 1.34;
+}
+
 .font-2-24 {
   font-family: "Roboto";
   font-weight: 400;

@@ -29,6 +29,7 @@
   text-transform: uppercase;
   font-weight: bold;
   transition: 0.3s;
+  align-self: center;
 }
 
 .botao:hover {
