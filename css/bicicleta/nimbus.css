@@ -60,6 +60,11 @@
   padding: 20px 20px;
 }
 
+.bicicleta-conteudo h2 {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+
 .especificacoes {
   background: var(--cor-12);
   padding: 24px 24px;
