@@ -30,6 +30,8 @@
   font-weight: bold;
   transition: 0.3s;
   align-self: center;
+  border: none;
+  cursor: pointer;
 }
 
 .botao:hover {
