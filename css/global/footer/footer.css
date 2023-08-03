@@ -53,6 +53,7 @@
     }
 }
 
+
 @media (max-width: 600px) {
     .footer-container {
         grid-template-columns: 1fr;
