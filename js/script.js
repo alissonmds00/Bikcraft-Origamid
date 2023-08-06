@@ -1,8 +1,8 @@
 // verificar a url atual
 const links = document.querySelectorAll(".header-menu a");
-const url = document.location.href;
 
 function verificarLink(link) {
+  const url = document.location.href;
   const href = link.href;
   if (url.includes(href)) {
     link.classList.add("ativo");
@@ -16,10 +16,28 @@ const parametros = new URLSearchParams(location.search); // comando que separa o
 
 function ativarProduto(parametro) {
   const elemento = document.querySelector(`#${parametro}`);
-  if (elemento) { // verifica se os parâmetros no URL são válidos
+  if (elemento) {
+    // verifica se os parâmetros no URL são válidos
     elemento.checked = true;
   }
 }
 
 parametros.forEach(ativarProduto);
-console.log(parametros);
+
+// Perguntas frequentes
+const perguntas = document.querySelectorAll(".perguntas button");
+
+function perguntasHover(pergunta) {
+  pergunta.addEventListener("click", ativarPergunta);
+}
+
+function ativarPergunta(event) {
+  const pergunta = event.currentTarget;
+  const controls = pergunta.getAttribute("aria-controls");
+  const resposta = document.getElementById(controls);
+
+  resposta.classList.toggle("ativo");
+  pergunta.setAttribute("aria-expanded", true);
+}
+
+perguntas.forEach(perguntasHover);
