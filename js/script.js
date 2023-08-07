@@ -58,3 +58,8 @@ function escolherImagem(imagem) {
 }
 
 galeria.forEach(escolherImagem);
+
+// Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
