@@ -41,3 +41,21 @@ function ativarPergunta(event) {
 }
 
 perguntas.forEach(perguntasHover);
+
+// Galeria
+const galeria = document.querySelectorAll(".imagens-container img");
+const imagemPrincipal = document.querySelector("#imagem-principal");
+
+function trocarImagem(event) {
+  const imagem = event.currentTarget;
+  const imagemAnterior = imagemPrincipal.src
+  const url = imagem.src;
+  imagem.src = imagemAnterior
+  imagemPrincipal.src = url
+}
+
+function escolherImagem(imagem) {
+  imagem.addEventListener("click", trocarImagem);
+}
+
+galeria.forEach(escolherImagem);
