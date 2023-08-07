@@ -42,16 +42,15 @@ function ativarPergunta(event) {
 
 perguntas.forEach(perguntasHover);
 
-// Galeria
+// Galeria - interativa
 const galeria = document.querySelectorAll(".imagens-container img");
-const imagemPrincipal = document.querySelector("#imagem-principal");
+const galeriaContainer = document.querySelector(".imagens-container");
 
 function trocarImagem(event) {
-  const imagem = event.currentTarget;
-  const imagemAnterior = imagemPrincipal.src
-  const url = imagem.src;
-  imagem.src = imagemAnterior
-  imagemPrincipal.src = url
+  if (matchMedia("(min-width: 1000px)").matches) {
+    const imagem = event.currentTarget;
+    galeriaContainer.prepend(imagem);
+  }
 }
 
 function escolherImagem(imagem) {
