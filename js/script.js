@@ -6,6 +6,8 @@ function verificarLink(link) {
   const href = link.href;
   if (url.includes(href)) {
     link.classList.add("ativo");
+  } else if (url.includes("bicicleta")) {
+    links[0].classList.add("ativo");
   }
 }
 
